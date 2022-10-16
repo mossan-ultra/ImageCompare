@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>画像一致率計算ソフトウェア</title>
+    </head>
+<body>
+    <section>
+        <h1>比較したい画像をそれぞれ選択してください</h1>
+        <form method="post" action="/api/imgcompare" enctype="multipart/form-data">
+            <input type="file" name="img" accept=".jpg, .png">
+            <input type="file" name="img" accept=".jpg, .png">
+            <p><input type="submit" value="送信する"></p>
+
+        </form>
+    </section>
+</body>
+</html>
